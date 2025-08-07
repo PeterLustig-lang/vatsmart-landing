@@ -1,0 +1,88 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VATSmart – EU-Reverse-Charge & OSS in one equation.</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a class="logo" href="#">VATSmart</a>
+      <a class="cta-btn" href="https://buy.stripe.com/test_dRm8wPcBn4zFfn65jk9AA00" target="_blank" rel="noopener">Jetzt vorbestellen</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>EU-Reverse-Charge & OSS in one equation.</h1>
+          <p class="tagline">Automatisiere deine Umsatzsteuer – sicher, schnell & compliant.</p>
+          <ul class="usp-list">
+            <li>Berechnet automatisch, ob Reverse-Charge greift (VAT-ID & Länderlogik)</li>
+            <li>Immer aktuelle Umsatzsteuersätze aller EU-Länder – keine Handarbeit mehr</li>
+            <li>One-Click-Export für OSS-/DATEV-Berichte</li>
+          </ul>
+          <a class="cta-btn large" href="https://buy.stripe.com/test_dRm8wPcBn4zFfn65jk9AA00" target="_blank" rel="noopener">Jetzt vorbestellen</a>
+        </div>
+        <div class="hero-image">
+          <img src="https://placehold.co/960x540?text=VATSmart" alt="VATSmart Mockup">
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+      <div class="container">
+        <h2>Preise</h2>
+        <div class="pricing-grid">
+          <div class="price-card">
+            <h3>Solo-Lizenz</h3>
+            <p class="price"><span class="amount">19 €</span> <span class="period">einmalig</span></p>
+            <ul>
+              <li>1 User</li>
+              <li>Alle Features</li>
+              <li>Lifetime Updates</li>
+            </ul>
+            <a class="cta-btn" href="https://buy.stripe.com/test_dRm8wPcBn4zFfn65jk9AA00" target="_blank" rel="noopener">Jetzt vorbestellen</a>
+          </div>
+          <div class="price-card outline">
+            <h3>Team-Plan</h3>
+            <p class="price"><span class="amount">99 €</span> <span class="period">pro Jahr (bis 5 User)</span></p>
+            <ul>
+              <li>Bis 5 User</li>
+              <li>Alle Features + Team-Dashboard</li>
+              <li>Priorisierter Support</li>
+            </ul>
+            <a class="cta-btn disabled" href="#kontakt" aria-disabled="true">Demnächst verfügbar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="kontakt">
+      <div class="container">
+        <h2>Fragen?</h2>
+        <p>Schreib uns an <a href="mailto:support@vatsmart.app">support@vatsmart.app</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>&copy; <span id="year"></span> VATSmart. Alle Rechte vorbehalten.</small>
+    </div>
+  </footer>
+
+  <script>
+    // Insert current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
